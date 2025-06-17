@@ -186,7 +186,7 @@ def main():
         ]),
         '5)EDE-Q': Shit('EDE-Q', [
             RowPair(1, 0, 29, 1),
-            RowPair(10, 12, 17, 14),
+            RowPair(10, 12, 17, 16),
             ColumnPair(10, 18, 11, 18),
         ]),
         '6)ESS': Shit('ESS', [
@@ -215,10 +215,10 @@ def main():
 
     sheets_but = {
         'BUT A': Shit('BUT.A', [
-            RowPair(2, 0, 35, 2),
+            RowPair(2, 0, 36, 2),
         ]),
         'BUT B': Shit('BUT.B', [
-            RowPair(3, 0, 39, 2),
+            RowPair(2, 0, 39, 2),
         ]),
         'Risultato': Shit('BUT', [
             RowPair(2, 0, 8, 1, process_key_fn=lambda x: 'A.' + x),
