@@ -3,6 +3,8 @@ import pandas as pd
 
 
 def main():
+    # Ricordarsi di uniformare gli header dei due file csv altrimenti le colonne differenti vengono tenute entrambe
+    # portando a molti valori null per gli id che hanno solo una o l'altra in restanti o restanti2
     csv1_path = Path('restanti.csv')
     csv2_path = Path('restanti2.csv')
     merged_path = Path('merged.csv')
